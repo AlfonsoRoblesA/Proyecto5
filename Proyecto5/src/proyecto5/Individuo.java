@@ -21,7 +21,7 @@ public class Individuo {
         return x;
     }
 
-    public void setN(double[] x) {
+    public void setX(double[] x) {
         this.x = x;
     }
 
@@ -33,4 +33,7 @@ public class Individuo {
         this.aptitud = aptitud;
     }
     
+    public void setXIndividual(double valor, int posicion){
+        this.x[posicion] = valor;
+    }
 }
